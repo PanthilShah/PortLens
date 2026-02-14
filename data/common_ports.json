@@ -1,0 +1,20 @@
+{
+  "21": {"service": "FTP", "description": "File Transfer Protocol", "risk": "medium"},
+  "22": {"service": "SSH", "description": "Secure Shell", "risk": "low"},
+  "23": {"service": "Telnet", "description": "Telnet Protocol", "risk": "high"},
+  "25": {"service": "SMTP", "description": "Simple Mail Transfer Protocol", "risk": "medium"},
+  "53": {"service": "DNS", "description": "Domain Name System", "risk": "low"},
+  "80": {"service": "HTTP", "description": "Hypertext Transfer Protocol", "risk": "medium"},
+  "110": {"service": "POP3", "description": "Post Office Protocol v3", "risk": "medium"},
+  "143": {"service": "IMAP", "description": "Internet Message Access Protocol", "risk": "medium"},
+  "443": {"service": "HTTPS", "description": "HTTP Secure", "risk": "low"},
+  "445": {"service": "SMB", "description": "Server Message Block", "risk": "high"},
+  "3306": {"service": "MySQL", "description": "MySQL Database", "risk": "high"},
+  "3389": {"service": "RDP", "description": "Remote Desktop Protocol", "risk": "medium"},
+  "5432": {"service": "PostgreSQL", "description": "PostgreSQL Database", "risk": "high"},
+  "5900": {"service": "VNC", "description": "Virtual Network Computing", "risk": "medium"},
+  "8080": {"service": "HTTP-Proxy", "description": "HTTP Alternative", "risk": "medium"},
+  "8443": {"service": "HTTPS-Alt", "description": "HTTPS Alternative", "risk": "low"},
+  "27017": {"service": "MongoDB", "description": "MongoDB Database", "risk": "high"},
+  "6379": {"service": "Redis", "description": "Redis Database", "risk": "high"}
+}

@@ -1,0 +1,22 @@
+{
+  "21": {
+    "vulnerabilities": ["Anonymous FTP login may be enabled", "FTP credentials transmitted in plaintext"],
+    "recommendations": ["Disable anonymous access", "Use FTPS or SFTP instead"]
+  },
+  "23": {
+    "vulnerabilities": ["Unencrypted communication channel", "Credentials transmitted in cleartext"],
+    "recommendations": ["Replace with SSH (port 22)", "Disable Telnet service"]
+  },
+  "445": {
+    "vulnerabilities": ["EternalBlue exploit (MS17-010)", "SMB relay attacks possible"],
+    "recommendations": ["Apply latest Windows patches", "Disable SMBv1 protocol"]
+  },
+  "3306": {
+    "vulnerabilities": ["Default credentials may be in use", "Database exposed to network"],
+    "recommendations": ["Bind to localhost only", "Use strong passwords", "Enable SSL/TLS encryption"]
+  },
+  "3389": {
+    "vulnerabilities": ["BlueKeep vulnerability (CVE-2019-0708)", "Brute force attack surface"],
+    "recommendations": ["Enable Network Level Authentication", "Use VPN for remote access"]
+  }
+}
