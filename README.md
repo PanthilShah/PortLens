@@ -1,58 +1,111 @@
-<<<<<<< HEAD
-# 🔎 PortLens – Visual Network Security Scanner
+# 🔎PortLens – Visual Network Security Scanner
 
-PortLens is a modern, GUI-based network port scanner built with Python and CustomTkinter. It allows users to scan IP addresses or hostnames to identify open ports, detect running services, and evaluate overall security risk through an intuitive visual interface.
+PortLens is a modern, GUI-based network port scanner built with Python and CustomTkinter. It helps cybersecurity students, professionals, and network administrators identify open ports, detect running services, and evaluate overall system security risk through a clean and intuitive visual dashboard.
 
-Designed for cybersecurity students, professionals, and network administrators, PortLens makes port scanning accessible, visual, and easy to interpret.
+It combines fast multithreaded scanning, service detection, and risk analysis into one professional desktop application.
 
 ---
 
 ## 🚀 Features
-
-• Modern GUI built using CustomTkinter  
-• Fast multithreaded port scanning  
-• Scan custom ports or predefined presets  
-• Service detection for open ports  
-• Risk Level Detection (Low / Medium / High)  
-• Export results to JSON, CSV, TXT, and PDF  
-• Real-time scan progress tracking  
-• Clean and professional dashboard UI  
-
----
-
-## 🧠 Risk Level Detection (Custom Feature)
-
-PortLens includes a built-in risk analysis system:
-
-• 🔴 High Risk → Critical ports like SSH, Databases open  
-• 🟡 Medium Risk → Web ports open  
-• 🟢 Low Risk → No dangerous ports open  
-
-This helps users quickly understand system exposure without manual analysis.
+✔ Modern GUI built with CustomTkinter  
+✔ Fast multithreaded port scanning engine  
+✔ Scan custom ports or use predefined presets  
+✔ Service detection for open ports  
+✔ Built-in Risk Level Analysis (Low / Medium / High)  
+✔ Export results to JSON, CSV, TXT, and PDF  
+✔ Real-time scan progress tracking  
+✔ Professional dashboard interface  
+✔ Clean modular architecture  
 
 ---
 
-## 🖥️ User Interface Preview
+## 🧠 Risk Level Detection
+PortLens automatically evaluates system exposure based on open ports:
 
-Dashboard includes:
+| Risk Level | Description |
+|----------|-------------|
+| 🔴 High Risk | Critical ports like SSH, MySQL, MongoDB open |
+| 🟡 Medium Risk | Web ports like HTTP / HTTPS open |
+| 🟢 Low Risk | No sensitive ports exposed |
 
-• Target input  
-• Port configuration  
-• Scan controls  
-• Real-time statistics  
-• Detailed results panel  
-• Visual risk indicator  
+This allows instant security assessment without manual analysis.
+
+---
+
+## 🛠 Built With
+• Python 3  
+• CustomTkinter  
+• Socket Programming  
+• Multithreading  
+• JSON / CSV / PDF Export  
+• Modular Architecture  
 
 ---
 
 ## ⚙️ Installation
-
-### Step 1: Clone repository
-
+### Clone repository
 ```bash
 git clone https://github.com/PanthilShah/PortLens.git
 cd PortLens
-=======
-# PortLens
-Modern GUI-based port Security Scanner with Risk Detection
->>>>>>> 9b48235c96a7eae6842bc18fb9e3f27e18bd6138
+```
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run application
+```bash
+python main.py
+```
+
+---
+
+## 🎯 Usage
+1. Enter target IP or hostname  
+2. Enter ports or use presets  
+3. Click **Start Scan**  
+4. View open ports, services, and risk level  
+5. Export results if needed  
+
+---
+
+## 📁 Project Structure
+```
+PortLens/
+│
+├── core/           # Scanning engine
+├── gui/            # GUI components
+├── utils/          # Validators, exporters, logger
+├── data/           # Port and vulnerability data
+├── exports/        # Exported reports
+├── main.py         # Entry point
+├── config.py       # App configuration
+└── README.md
+```
+
+---
+
+## 🔐 Educational Purpose
+This project is intended for:
+
+• Cybersecurity learning  
+• Ethical hacking practice  
+• Network security analysis  
+• Academic projects  
+
+Do NOT use on unauthorized systems.
+
+---
+
+## 👨‍💻 Author
+Panthil Shah  
+Cybersecurity Enthusiast | Python Developer  
+
+GitHub:  
+https://github.com/PanthilShah
+
+---
+
+## ⭐ Support
+If you like this project, consider giving it a star ⭐ on GitHub.
