@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔎 PortLens – Visual Network Security Scanner
 
 PortLens is a modern, GUI-based network port scanner built with Python and CustomTkinter. It allows users to scan IP addresses or hostnames to identify open ports, detect running services, and evaluate overall security risk through an intuitive visual interface.
@@ -51,3 +52,7 @@ Dashboard includes:
 ```bash
 git clone https://github.com/PanthilShah/PortLens.git
 cd PortLens
+=======
+# PortLens
+Modern GUI-based port Security Scanner with Risk Detection
+>>>>>>> 9b48235c96a7eae6842bc18fb9e3f27e18bd6138
